@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  height: 100vh;
+}
+.restart {
+  margin-left: 50px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #284b63;
+  height: 200px;
+  color: #d9d9d9;
+
+  font-size: 24px;
+}
+main {
+  background-color: #353535;
+  color: #d9d9d9;
+  font-weight: bold;
+}
+.main-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+.main-text h2 {
+  margin-bottom: 10px;
+}
+.question-mark {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 15px;
+}
+.question-mark img {
+  width: 150px;
+  height: 150px;
+}
+.player-computer,
+p {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 50px;
+}
+.btn-grp {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 20px;
+}
+.btn-grp button {
+  background-color: #3c6e71;
+  width: 210px;
+  height: 210px;
+  cursor: pointer;
+  border: 3px solid #3c6e71;
+}
+.btn-grp img {
+  width: 200px;
+  height: 200px;
+  object-fit: fill;
+}
+.restart-btn {
+  display: flex;
+  justify-content: center;
+}
+.restart-btn button {
+  background-color: #3c6e71;
+  width: 210px;
+  height: 210px;
+  margin: 0 auto;
+  border: 3px solid #3c6e71;
+  cursor: pointer;
+}
+button:hover {
+  background-color: yellow;
+}
+.restart-btn img {
+  width: 200px;
+  height: 200px;
+  object-fit: fill;
+}
+footer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #d9d9d9;
+  font-weight: bold;
+}
